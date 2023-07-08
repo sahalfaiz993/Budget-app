@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+    width: 100%;
+    font-size: 16px;
+    max-width: 49.75em;
+    margin: 6em auto;
+    padding: 10px;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.sub-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: 3em;
+    padding-left: 0px;
+}
+
+
+
+.wrapper h3 {
+    color: blue;
+    font-weight: 400;
+    /* margin-bottom: 0.7em; */
+
+}
+
+.container input {
+    display: block;
+    width: 100%;
+    padding: 0.6em 0.3em;
+    border: 1px solid cadetblue;
+    border-radius: 0.3em;
+    color: blue;
+    outline: none;
+    font-weight: 400;
+
+}
+
+.container input:focus {
+    border-color: #587ef4;
+}
+
+.user-amount-container {
+    background-color: white;
+    padding: 1.25em 0.9em;
+    border-radius: 0.3em;
+    box-shadow: 0 0.6em 1.2em black;
+}
+
+.total-amount-container {
+    background-color: white;
+    padding: 1.25em 0.9em;
+    border-radius: 0.3em;
+    box-shadow: 0 0.6em 1.2em black;
+    margin-right: 40px;
+}
+
+.output-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.40em 0.1em;
+    margin-right: 2.10em 0.1em;
+    background-color: blue;
+    box-shadow: 0 0.6em 1.2em black;
+    width: 200%;
+    padding: 10px 30px;
+    height: 100px ;
+    margin-top: 30px;
+    border-radius:0%;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+.output-container p {
+    font-weight: 500;
+    margin-bottom: 0.6em;
+}
+.output-container span{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    color: antiquewhite;
+}
+.submit{
+    font-size: 1em;
+    margin-top: 1em;
+    background-color:blue;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 0.6em 1.2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+.sublist-content{
+    width: 100%;
+    border-left: 0.3em solid blue;
+    margin-bottom: 0.6em;
+    padding: 0.5 0em;
+   
+}
+.list{
+    background-color: aliceblue;
+    padding: 1.8em 1.2em;
+    box-shadow: 0 0.6em 1.2em black;
+}
+.product{
+    font-weight: 500;
+    margin-left: 1.5em;
+    color: #587ef4;
+}
+.amount{
+    color: #587ef4;
+    margin-left: 20%;
+}
+.icons-container{
+    width: 5em;
+    margin: 1.2em;
+    align-items: center;
+}
+.product-title{
+    margin-bottom: 1em;
+}
+.edit{
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.5em;
+    border: none;
+    color: #587ef4;
+}
+.edit{
+    margin-left: auto;
+}
+.delete{
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.5em;
+    border: none;
+    color: #587ef4;
+}
+.hide{
+    display: none;
+
+}
+.error{
+    color: brown;
+}
